@@ -1,4 +1,8 @@
-# How to reproduce
+# The problem
+
+PBR does not seem to auto include requirements.txt and test-requirements.txt when doing an sdist in a sub directory. IE Not the GIT root directory of the project.
+q
+## How to reproduce
 
 ```
 git clone git@github.com:lindycoder/pbr_subdir_bug.git
